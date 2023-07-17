@@ -1,0 +1,53 @@
+{
+    "current_page": 0,
+    "items": [
+      {
+        "id": 892000,
+        "tour": {
+          "tour_id": 14263,
+          "tour_name": "Europe Escape - 12 Days",
+          "tour_length_days": 12,
+          "operator": {
+            "id": 1170,
+            "name": "Expat Explore Travel"
+          }
+        },
+        "departure_date": "2024-01-02",
+        "return_date": "2024-01-14",
+        "created_at": "2023-05-01",
+        "type": "booking",
+        "hold_expire_at": null,
+        "status": "confirmed",
+        "total_value": 2564,
+        "pax": 2,
+        "main_passenger": {
+          "name": "Jane"
+        },
+        "confirmed_at": "2023-05-01",
+        "last_message": "Unknown Type: object,null",
+        "partner_info": {
+          "id": "189764",
+          "agent_id": 98789,
+          "store_id": 678,
+          "contract_type": "wholesale",
+          "calculation_base": "accommodation",
+          "commission_rate": 0,
+          "commission_value": 0,
+          "commission_status": "paid_out",
+          "booking_fee_rate": 0,
+          "booking_fee_value": 0,
+          "booking_fee_status": "paid"
+        },
+        "links": [
+          {
+            "type": "booking-page",
+            "url": "https://www.tourradar.com/booking/12345?enquiryCode=fvwffws8hgqqz4blyh13icbyldjqhp6d"
+          }
+        ],
+        "status_reason": "operator_error",
+        "status_reason_text": "Received error response from operator: Failed service status transition.",
+        "status_reason_context": "Unknown Type: object,null"
+      }
+    ],
+    "next_page": 0
+  }
