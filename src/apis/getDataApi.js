@@ -1,17 +1,19 @@
 import expres from "express";
+import dataCollection from "../models/datamodels.js";
 
 const dataGetterRoute = new expres.Router()
 
 // api for login process
-dataGetterRoute.post("/Auth/v1/getData", async (request, response) => {
+dataGetterRoute.get("/Auth/v1/getData", async (request, response) => {
 try {
-   let getData = request.body.name
+    
+    const data = await dataCollection.find()
 
-
-
+    console.log("data == ", data);
 
    response.send({
-    "your name": getData
+    "status": 200,
+        data
    })
 } catch (error) {
     response.status(400).send({
